@@ -1,0 +1,98 @@
+/* Smartphones */
+@media only screen and (max-width: 768px) {
+  #navbar {
+    height: 100px;
+  
+  }
+}
+#navbar h1 {
+  padding-top: 10px;
+  text-align: center;
+}
+.logo {
+  width: 100%;
+  font-size: 30px;
+}
+#navbar ul {
+  width: 100%;
+  background: #131313;
+  right: 0;
+  z-index: 2;
+ padding-left: 250px;
+}
+#navbar ul li a {
+  display: block;
+  padding: 17px;
+  text-align: center;
+  
+}
+
+/* #what .items {
+    }
+    
+    /* Align icon to left */
+#what .items {
+  text-align: center;
+  align-items: center;
+}
+#what .items .item {
+  float: none;
+  width: 100%;
+  padding: 0px 100px;
+  overflow: auto;
+  text-align: center;
+}
+#what .items .item h3 {
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+#what .items .item p {
+  padding-left: 50px;
+  padding-bottom: 30px;
+  text-align: left;
+  
+}
+#what h2 {
+  padding-bottom: 10px;
+}
+/* Position icon */
+#what .items .item i {
+  background: rgb(45, 235, 54);
+  border-radius: 60%;
+}
+#who .who-img,
+#who .m-heading,
+#who p,
+#who h3,
+#who .list-1 {
+  display: none;
+}
+#who .p-2 {
+  float: none;
+  width: 100%;
+  padding-top: 0px;
+}
+#clients .items ul li {
+  display: inline-block;
+  padding: 5px;
+}
+#who div {
+  height: 200px;
+}
+#clients .items img {
+  width: 50px;
+}
+#showcase .l-heading {
+  font-size: 90px;
+}
+#showcase .lead {
+  font-size: 40px;
+}
+#showcase .btn {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+  font-size: 20px;
+  background-color: rgb(138, 177, 48);
